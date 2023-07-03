@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+
+    margin:0 ;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: lightgray;
+}
+nav{
+    display: flex;
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    gap: 22px;
+}
+
+nav ul li {
+    list-style-type: none;
+    
+
+}
+nav ul img {
+    width: 50px;
+    height: 30px;
+    margin-top: 7px;
+    object-fit: contain;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: aqua;
+    font-size: large;
+  }
+a:active{
+    font-weight: 800;
+}
+.nav-right{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 78%;
+    
+}
+
+.button-atas {
+    background-color: black;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    
+}
+
+.button-1:hover{
+    background-color: grey;
+  color: black;
+  font-weight: bold;
+
+}
+
+.card {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       background-color: white;
+       padding: 150px; 
+       border: 2px ;
+       box-shadow: 0px 5px 5px;
+       border-radius: 5px; 
+       margin-top: 30px;
+       margin-right: 150px;
+       margin-left: 150px;
+}
+.content {
+    color: rgb(0, 5, 1); 
+    text-align: justify ; 
+    padding: 10px 20px 30px 25px;
+
+}
+
+.kontak {
+    background-color: black;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+.kontakhov:hover{
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+}
+.download {
+    text-decoration: none;
+    width: 20px;
+    gap: 50px;
+}
+
+
+.foto {
+        background-color: white;
+        width: 225px;
+        border: 20px ; 
+        box-shadow: 0px 5px 5px;
+        border-radius: 10px; 
+        margin: auto;
+}
+
+.fotoku { 
+    width: 225px; 
+}
+
+.hover {
+    margin-top: 20px;
+    margin-right: 20px;
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+     } 
+
+.hover:hover { -webkit-transform:scale(1.2);
+     -moz-transform:scale(1.2);
+      -o-transform:scale(1.2); 
+      opacity: 1;
+       z-index: 2;
+     }
