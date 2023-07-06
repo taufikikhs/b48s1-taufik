@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>
+            MY PROJECT
+        </title>
+       
+        <link rel="icon" type="image/x-icon" href="image/mylogo.png">
+        <link rel="stylesheet" href="css/stylemyproject.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous"referrerpolicy="no-referrer"/>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://dumbways.id/"><img class="hover" src="image/logo.png" href ></a> 
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="myproject.html" style="font-weight: bolder;">My Project</a>
+                </li>
+                
+                </ul>
+                <div class="nav-right">
+                    <a href="contact.html"> <button class="button-atas button-1">Contact Me</button></a>
+                 </div>  
+                    
+        </nav>
+<h1 class="judul">ADD MY PROJECT</h1>
+<div class="input-container">
+    <form id="form" class="form-container">
+    <label for="" >
+        Name
+    </label>
+        <input id="project-name">
+
+        <div class="input-date">
+
+           
+            <div class="date1">
+                <label for="">
+                    Start Date
+                </label>
+                    <input id="start-date"  type="date">
+    
+               </div>
+           <div class="date2">
+            <label for="">
+                End Date
+            </label>
+                <input id="end-date"  type="date">
+
+           </div>
+        </div>
+ 
+
+        <label for="">Description
+    </label>
+    <textarea class="text-area" id="description"></textarea>
+    <label for="">
+       Technologies
+    </label>
+    <div class="input-cekbox">
+        <div>
+            <label class="container"> Node Js
+                <input type="checkbox" id="nodejs" >
+                <span class="checkmark"></span>
+              </label>
+        </div>
+        
+          <div>
+            <label class="container"> React Js
+                <input type="checkbox" id="nextjs">
+                <span class="checkmark"></span>
+              </label>
+          </div>
+         
+          <div>
+            <label class="container"> Next Js
+                <input type="checkbox" id="reactjs" >
+                <span class="checkmark"></span>
+              </label>
+          </div>
+          
+          <div>
+            <label class="container"> Typescript
+                <input type="checkbox" id="typescript">
+                <span class="checkmark"></span>
+              </label>
+          </div>
+
+          
+
+          <div class="uploadfile">
+            <label>Upload Image</label><br>
+            <div class="label-image">
+              <label for="input-blog-image"><p>Choose</p>
+                <i class="fa-solid fa-paperclip fa-fw"></i></label>
+              <input type="file" id="input-blog-image" hidden />
+            </div>
+          </div>
+    </div>
+</div>
+<div class="submit">
+<button type="submit" class="button-bawah button-2" >Submit</button>
+</div>
+</form>
+       </div>
+       <div class="myproject-container">
+        <h1>My Project</h1>
+        <ul class="wrapper-myproject" id="wrapper-myproject">
+            
+            <!-- rendering dom -->
+        
+            
+        </ul>
+    </div>
+
+       </div>
+        <script src="javascript/project.js"></script>
+    </body>
+</html>

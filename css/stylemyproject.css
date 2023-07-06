@@ -1,0 +1,375 @@
+
+/*----KESELURUHAN---- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+
+    margin:0 ;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: lightgray;
+}
+/*----NAVBAR---- */
+nav{
+    display: flex;
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    gap: 22px;
+}
+
+nav ul li {
+    list-style-type: none;
+    
+
+}
+nav ul img {
+    width: 45px;
+    height: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: aqua;
+    font-size: large;
+  }
+a:active{
+    font-weight: 800;
+}
+.nav-right{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 76%;   
+    
+}
+
+.button-atas {
+    background-color: black;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    
+    
+}
+
+.button-1:hover{
+    background-color: grey;
+  color: black;
+  font-weight: bold;
+
+}
+
+
+  /*----Myproject.HTML Input---- */
+
+.judul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 500px;
+}
+
+.form-container label {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 12px;
+    
+}
+
+input {
+   padding: 10px;
+   border-radius: 5px;
+   border-style: none;
+   box-shadow: 0px 2px 1px;
+   width: 500px;
+}
+
+ .input-date
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.date1 input{
+   width: 240px;
+ }
+ .date2 input{
+    width: 240px;
+ }
+
+.text-area{
+    padding: 0px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0px 2px 1px;
+}
+
+/*----------------------checkboxes----------------*/
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+ 
+  
+  /* Hide the browser's default checkbox */
+  .input-cekbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.input-cekbox div{
+    flex: 45%;
+    display: flex;
+    justify-content: flex-start;
+}
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  /* Create a custom checkbox */
+  
+  .checkmark {
+    display: wrap;
+    justify-content: flex-start;
+    flex: 45%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+    
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(55deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  /*----------------------checkboxes----------------*/
+
+ /*filessss*/
+.uploadfile{
+    display: flex;
+    flex-direction: column;
+}
+
+ .label-image label {
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 500px;
+  }
+  
+  .label-image label p {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgray;
+    width: 60px;
+    height: 25;
+  }
+  
+  .label-image label i {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 375px;
+    font-size: large;
+  }
+
+ /*filessss*/
+
+.submit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 68%;
+    margin-top: 20px;
+}
+
+.button-bawah {
+    background-color: black;
+    color: white;
+    width: 100px;
+    padding: 15px;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+}
+
+.button-2:hover{
+    background-color: grey;
+  color: black;
+  font-weight: bold;
+  -webkit-transform:scale(1.2);
+     -moz-transform:scale(1.2);
+      -o-transform:scale(1.2); 
+      opacity: 1;
+       z-index: 2;
+
+}
+
+/* .listproject{
+    background-color: aqua;
+}
+
+
+.myproject-container {
+  height: 130%;
+  background-color: rgb(234, 241, 241);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.myproject-container h1 {
+  margin-top: 30px;
+}
+.wrapper-myproject {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 20px;
+  height: 120%;
+  width: 80%;
+  padding: 50px;
+  list-style: none;
+  
+}
+
+.item-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgb(131, 189, 236);
+  margin: 10px;
+  border: 1px solid lightblue;
+
+}
+
+.item-card img {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  margin-bottom: auto;
+}
+
+.text {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.wrapper-checkbox {
+  gap: 10px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.checkbox-item {
+  display: flex;
+  justify-content: center;
+}
+.checkbox-item img {
+  height: 40px;
+  margin: 5px;;
+}
+
+.option {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  width: 90%;
+ 
+}
+
+.option button {
+  margin-right:20px;
+  padding: 5px;
+  width: 30%;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border-style: none;
+} */
